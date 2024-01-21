@@ -86,8 +86,50 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* General Styles */
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.1285;
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
-  /*outline: 3px dotted red;*/
   width: 90%;
   margin: 50px 0;
 }
@@ -247,7 +289,7 @@ aside {
   margin: 50px 0 0 0;
 }
 
-.faq {
+.faq h2 {
   margin-bottom: 40px;
 }
 
@@ -400,7 +442,7 @@ aside {
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /* Reviews */
